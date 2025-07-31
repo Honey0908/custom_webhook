@@ -7,7 +7,6 @@ const crypto = require('crypto');
  * @returns {string} The hex-encoded signature.
  */
 function generateSignature(payload, secret) {
-  console.log('=======', payload, secret);
   const hmac = crypto.createHmac('sha256', secret);
   hmac.update(payload);
   return hmac.digest('hex');
