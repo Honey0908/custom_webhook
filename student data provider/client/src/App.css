@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #c599b6;
+  --color-secondary: #e6b2ba;
+  --color-accent: #fad0c4;
+  --color-background: #fff7f3;
+}
+
+body {
+  @apply text-primary font-sans min-h-screen;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-lg p-8 border border-accent transition hover:shadow-xl;
+}
+
+.navbar {
+  @apply bg-primary text-white shadow-lg;
+}
+
+.btn-primary {
+  @apply bg-secondary text-white hover:bg-accent! transition-colors;
+}
+
+.navbar-link {
+  @apply text-white font-medium mr-8 transition-colors;
+}
+
+.navbar-link.active {
+  @apply text-accent underline;
+}
+
+.table {
+  @apply bg-white rounded-xl shadow border border-secondary;
+}
