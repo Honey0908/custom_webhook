@@ -1,4 +1,4 @@
-const apiBaseURL = import.meta.env.VITE_API_BASE_URL;
+const apiBaseURL = import.meta.env.VITE_REACT_API_BASE_URL + '/api';
 
 export const fetchStudents = async () => {
   const res = await fetch(`${apiBaseURL}/students`);
