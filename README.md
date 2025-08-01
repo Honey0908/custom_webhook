@@ -1,11 +1,17 @@
 # Webhook POC: Student Data Provider & School Client 🚀
 
+## Live Demo 🌐
+- **Student Portal (Demo School A):** [https://achievers-school.netlify.app/](https://achievers-school.netlify.app/)
+- **Student Data Provider:** [https://student-data-provider.netlify.app/](https://student-data-provider.netlify.app/)
+
 ## Overview
 This project demonstrates a custom webhook system between two apps:
 - **Student Data Provider** 🏫: Central service where multiple schools register their webhook endpoints. Manages student data and triggers webhooks.
 - **School Client (Demo: A School)** 🎓: Receives webhook events from the provider and processes student data.
 
-## Architecture 🏗️
+## Architecture Diagram 🖼️
+
+![Custom Webhook Flow](public/custom_webhook.png)
 - **Student Data Provider**
   - Schools register their webhook URLs and receive a one-time secret for HMAC authentication 🔑.
   - When a student is registered for a school, a webhook event is sent to the school's endpoint with a signed payload 📦.
@@ -89,7 +95,7 @@ This project demonstrates a custom webhook system between two apps:
 - Integrate with other school systems.
 - Add admin dashboard for provider.
 - Enhance log filtering and analytics.
-- add retry queue or email logic if all webhook sent events fail
+- Add retry queue or email logic if all webhook sent events fail.
 
 ## Troubleshooting 🛠️
 - If signatures don't match, ensure both sides use the exact same payload string and secret.
