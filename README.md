@@ -3,7 +3,9 @@
 ## Live Demo 🌐
 - **Student Portal (Demo School A):** [https://achievers-school.netlify.app/](https://achievers-school.netlify.app/)
 - **Student Data Provider:** [https://student-data-provider.netlify.app/](https://student-data-provider.netlify.app/)
-- **Demo Video:** 📹 [Watch Demo Video](https://simformsolutionspvtltd-my.sharepoint.com/:v:/g/personal/honey_p_simformsolutions_com/ESY5sIQsWtBOpUO2gMeGeAABkHKMEBZEUuE-b9ld4HCbpQ?e=k5xO7x&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Demo Video:**
+[Watch demo](public/demoVideo.mp4)
+
 
 ## Overview
 This project demonstrates a custom webhook system between two apps:
