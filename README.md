@@ -4,7 +4,8 @@
 - **Student Portal (Demo School A):** [https://achievers-school.netlify.app/](https://achievers-school.netlify.app/)
 - **Student Data Provider:** [https://student-data-provider.netlify.app/](https://student-data-provider.netlify.app/)
 - **Demo Video:**
-[Watch demo](public/demoVideo.mp4)
+
+https://github.com/user-attachments/assets/f1757d22-b5dd-45fb-86e0-e08b05c21e25
 
 
 ## Overview
